@@ -1,0 +1,22 @@
+{
+    "name": "mikk150/yii2-sendsmailymailer",
+    "description": "yii2 sendsmaily mailer component",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","sendsmaily", "mailer"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Mikk Tendermann",
+            "email": "mikk150@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+	"nuffic/sendsmaily": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "mikk150\\sendsmaily\\": "src/"
+        }
+    }
+}
